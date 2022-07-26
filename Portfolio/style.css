@@ -1,0 +1,73 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--text-color);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2% 2% 0 2%;
+}
+
+.card-perfil {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    padding: 2% 2% 0 2%;
+    background-color: var(--bg-cards);
+    border-radius: 4%;
+}
+.card-body #profissao{
+    font-size: 12px;
+}
+
+#card-img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    padding: 2% 2% 2% 2%;
+    background-color: var(--bg-cards);
+    border-radius: 4%;
+    margin: 2% 0;
+}
+
+.card-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2% 0;
+    font-size: 12px;
+   
+}
+
+.card-tecno{
+
+}
