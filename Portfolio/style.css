@@ -14,7 +14,6 @@
 body {
     background-color: var(--body-bg-color);
     font-family: 'Merriweather Sans', sans-serif;
-    color: var(--text-color);
 }
 
 .content {
@@ -31,6 +30,7 @@ body {
 
 .card-perfil {
     background-color: var(--bg-cards);
+    color: var(--text-color);
     width: 350px;
     text-align: center;
     padding: 20px;
@@ -39,7 +39,7 @@ body {
 }
 
 #card-img {
-    width: 50%;
+    width: 125px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -50,6 +50,7 @@ img {
 
 .card-links {
     background-color: var(--bg-cards);
+    color: var(--text-color);
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -74,6 +75,7 @@ img {
 
 .card-tecno {
     background-color: var(--bg-cards);
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -103,6 +105,7 @@ img {
 
 .card-projetos {
     background-color: var(--bg-cards);
+    color: var(--text-color);
     width: 140%;
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +118,7 @@ img {
     border-radius: 15px;
 }
 
-.card-projetos a{
+.card-projetos a {
     color: var(--text-color);
     align-items: center;
 }
@@ -131,11 +134,12 @@ img {
 
 .project-single {
     background-color: var(--bg-cards);
+    color: var(--text-color);
     width: 100%;
     font-size: 12px;
     padding: 7px;
     margin: 3% 0.5%;
-    
+
     border-radius: 15px;
 }
 
@@ -152,8 +156,9 @@ img {
     margin: 2%;
 }
 
-.card-post{
+.card-post {
     background-color: var(--bg-cards);
+    color: var(--text-color);
     display: flex;
     width: 140%;
     align-items: center;
@@ -164,10 +169,33 @@ img {
     padding: 20px;
     margin: 3%;
     border-radius: 15px;
-
 }
 
+.card-p {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 140%;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    top: -400px;
+    right: -390px;
+    padding: 20px;
+    margin: 3%;
+    border-radius: 15px;
+}
 
+#img-post{
+    width: 100px;
+    border-radius: 15px;
+}
+.card-p p{
+    margin: 10px;
+    font-size: 14px;
+}
 @media screen and (max-width:768px) {
     .card-perfil {
         width: 100%;
