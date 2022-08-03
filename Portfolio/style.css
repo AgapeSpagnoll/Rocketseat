@@ -22,13 +22,11 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px ;
+    padding: 20px;
 }
 
 .item {
     width: 50%;
-    /* border: 1px solid black;
- */
 }
 
 .card-perfil {
@@ -55,7 +53,7 @@ img {
     width: 350px;
     display: flex;
     flex-direction: column;
-    padding: 20px ;
+    padding: 20px;
     margin: 3%;
     border-radius: 15px;
 }
@@ -70,16 +68,16 @@ img {
 
 .card-links i {
     color: var(--text-color);
-    letter-spacing: 25px;
+    padding-right: 25px;
     font-size: 17px;
 }
 
 .card-tecno {
     background-color: var(--bg-cards);
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     width: 350px;
-    padding: 20px ;
+    padding: 20px;
     margin: 3%;
     border-radius: 15px;
 }
@@ -88,7 +86,7 @@ img {
     display: grid;
     column-gap: 35px;
     grid-template-columns: auto auto auto;
-    padding: 10px ;
+    padding: 10px;
 
 }
 
@@ -108,12 +106,67 @@ img {
     width: 140%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     position: relative;
     right: 350px;
-    padding: 20px ;
+    padding: 20px;
     margin: 3%;
     border-radius: 15px;
 }
+
+.card-projetos a{
+    color: var(--text-color);
+    align-items: center;
+}
+
+.card-projects {
+    display: flex;
+    width: 146%;
+    position: relative;
+    top: -250px;
+    right: 347px;
+    padding: 20px;
+}
+
+.project-single {
+    background-color: var(--bg-cards);
+    width: 100%;
+    font-size: 12px;
+    padding: 7px;
+    margin: 3% 0.5%;
+    
+    border-radius: 15px;
+}
+
+.project-single p {
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.project-single i {
+    color: var(--text-color);
+    font-size: 12px;
+    margin: 2%;
+}
+
+.card-post{
+    background-color: var(--bg-cards);
+    display: flex;
+    width: 140%;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    top: -350px;
+    right: 347px;
+    padding: 20px;
+    margin: 3%;
+    border-radius: 15px;
+
+}
+
 
 @media screen and (max-width:768px) {
     .card-perfil {
